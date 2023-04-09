@@ -13,6 +13,8 @@ if sayı1  > sayı2:
 else:
     print(f"{sayı2} büyüktür")   
 
+
+
    ### A Different Solution   ###
 
 bignumber = []
@@ -32,7 +34,7 @@ print(largest)
 
 count=0
 array=[]
-while count < 5:
+while count < 7:
   number= int(input('Please enter the number: '))
   array.append(number)
   count = count +1
