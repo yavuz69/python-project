@@ -1,7 +1,6 @@
 print("###  This program converts milliseconds into hours, minutes, and seconds ###") 
 print("To exit the program, please type 'exit'")
 
-        
 def time_count(user_input):
     dict={"hour/s":3600000,"minute/s":60000,"second/s":1000}
     result = 0
@@ -12,6 +11,7 @@ def time_count(user_input):
             user_input = user_input % value
             yazici += str(result) + " " + key + " "
     return yazici
+
 
 print("###  This program converts milliseconds into hours, minutes, and seconds ###")
 print("To exit the program, please type 'exit'")
